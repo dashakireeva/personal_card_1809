@@ -1,0 +1,24 @@
+
+                    
+                    /* img {
+                        width: 70px; 
+                    } */
+                    /* .xob {
+                        padding-bottom: 100px;
+                        padding-top: 50px;
+                    } */
+h2 {
+    margin-right: 0px;
+    margin-right: 300px;
+}
+                    .box1 {
+                        display: inline-block;
+                    }
+                    input{
+                        margin-bottom: 70px;
+                        justify-content: space-between;
+                    }
+
+                    .text-success, .text-info {  
+                        margin-right: 200px;
+                    }

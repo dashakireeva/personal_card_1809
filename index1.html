@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+                <html lang="en">
+                  <head> 
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>{{ title }}</title>
+                    <link rel="stylesheet" type="text/css" href="../static/css/style.css"/>
+                </head>
+                <body>
+                  {% extends "base.html" %}
+
+                    {% block content %}
+                    <form class="login_form" method="post" enctype="multipart/form-data"></form>
+                        <h2 margin-right=200px> Размещение по каютам</h2>
+                        <div>
+                            {% for el in news['a'] %}
+                            <p> {{el}} - Каюта № {{ loop.index }} {% if loop.first %} - капитан корабля {% endif %}</p>
+                            {% endfor %}
+                        </div>
+                    </form>
+                  {% endblock %}   
+                </body>
+                </html>
